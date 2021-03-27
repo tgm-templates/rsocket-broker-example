@@ -3,7 +3,7 @@ Alibaba RSocket Broker Example
 
 # Modules
 
-* service-api: Service API
+* service-api: Service API，使用Java 8进行编译，主要是方便其他应用接入
 * rsocket-requester: RSocket服务消费端
 * rsocket-responder: RSocket服务提供者
 
