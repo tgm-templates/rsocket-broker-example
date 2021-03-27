@@ -19,6 +19,10 @@
   ],
   "files": [
     "pom.xml",
-    "src/main/resources/application.properties"
+    "rsocket-requester/pom.xml",
+    "rsocket-responder/pom.xml",
+    "service-api/pom.xml",
+    "rsocket-requester/src/main/resources/application.properties",
+    "rsocket-responder/src/main/resources/application.properties"
   ]
 }
