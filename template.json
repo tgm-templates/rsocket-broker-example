@@ -1,0 +1,24 @@
+{
+  "name": "rsocket-broker-example",
+  "repository": "https://github.com/tgm-templates/rsocket-broker-example",
+  "description": "Alibaba RSocket Broker example",
+  "variables": [
+    {
+      "name": "groupId",
+      "description": "Maven groupId"
+    },
+    {
+      "name": "projectName",
+      "description": "Project name"
+    },
+    {
+      "name": "javaVersion",
+      "value": "8",
+      "description": "Java Version"
+    }
+  ],
+  "files": [
+    "pom.xml",
+    "src/main/resources/application.properties"
+  ]
+}
