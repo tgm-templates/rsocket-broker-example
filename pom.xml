@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.alibaba.example</groupId>
-    <artifactId>rsocket-example-parent</artifactId>
+    <groupId>@groupId@</groupId>
+    <artifactId>@projectName@-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <name>Alibaba RSocket Broker Example Parent</name>
@@ -17,7 +17,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
+        <java.version>@javaVersion@</java.version>
         <spring-boot.version>2.4.4</spring-boot.version>
         <rsocket.version>1.1.0</rsocket.version>
         <alibaba-rsocket.version>1.0.1</alibaba-rsocket.version>
@@ -69,8 +69,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                     <parameters>true</parameters>
                 </configuration>
             </plugin>

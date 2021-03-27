@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.alibaba.example</groupId>
-        <artifactId>rsocket-example-parent</artifactId>
+        <groupId>@groupId@</groupId>
+        <artifactId>@projectName@-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>rsocket-responder</artifactId>
-    <name>RSocket Responder</name>
+    <artifactId>@projectName@-responder</artifactId>
+    <name>@projectName@ RSocket Responder</name>
 
     <dependencies>
         <dependency>
@@ -23,8 +23,8 @@
             <version>${alibaba-rsocket.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.example</groupId>
-            <artifactId>service-api</artifactId>
+            <groupId>@groupId@</groupId>
+            <artifactId>@projectName@-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
