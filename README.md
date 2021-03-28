@@ -7,6 +7,11 @@ Alibaba RSocket Broker Example
 * rsocket-requester: RSocket服务消费端
 * rsocket-responder: RSocket服务提供者
 
+# How to create example app?
+
+* Install tgm from https://github.com/linux-china/tgm
+* Execute `tgm create rsocket-broker-example your-service`
+
 # How to start?
 
 * Start the RSocket Broker: `docker-compose up -d`
