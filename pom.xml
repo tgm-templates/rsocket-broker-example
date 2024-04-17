@@ -20,17 +20,17 @@
         <java.version>@javaVersion@</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <spring-boot.version>2.4.8</spring-boot.version>
-        <rsocket.version>1.1.0</rsocket.version>
-        <alibaba-rsocket.version>1.1.1</alibaba-rsocket.version>
-        <junit5.version>5.7.2</junit5.version>
+        <spring-boot.version>2.7.18</spring-boot.version>
+        <rsocket.version>1.1.4</rsocket.version>
+        <alibaba-rsocket.version>1.1.6</alibaba-rsocket.version>
+        <junit5.version>5.10.2</junit5.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>21.0.1</version>
+            <version>24.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -40,7 +40,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.20.2</version>
+            <version>3.25.3</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -69,7 +69,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.13.0</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
@@ -79,7 +79,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
+                <version>3.2.5</version>
                 <configuration>
                     <includes>
                         <include>**/*Tests.java</include>
